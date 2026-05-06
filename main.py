@@ -101,6 +101,6 @@ app = FastAPI()
 app.include_router(graphql_app, prefix="/graphql")
 
 
-if __name__=="main":
-    import uvicorn
-    uvicorn.run("main:app",reload=True)
+# if __name__=="main":
+#     import uvicorn
+#     uvicorn.run("main:app",reload=False)
